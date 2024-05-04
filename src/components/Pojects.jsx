@@ -183,7 +183,7 @@ export default function () {
               <a href="https://indianindie.itch.io/escape-for-survival" className="card-link"  target="_blank">
                 Link
               </a>
-              <a href="#" className="card-link-1"  target="_blank">
+              <a href="https://indianindie.itch.io/escape-for-survival" className="card-link-1"  target="_blank">
                 GitHub
               </a>
             </div>
