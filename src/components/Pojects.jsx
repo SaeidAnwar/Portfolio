@@ -9,6 +9,12 @@ import "swiper/css/pagination";
 
 import "../styles/Projects.css";
 
+import trainImg from "/public/projects/horror_train.png"
+import portfolioImg from "/public/projects/portfolio.png"
+import iguanaImg from "/public/projects/iguana_escape.png"
+import superImg from "/public/projects/super_mario.png"
+import youtubeImg from "/public/projects/youtube_filtered.png"
+
 export default function () {
   return (
     <div className="Project">
@@ -36,31 +42,30 @@ export default function () {
           modules={[EffectCoverflow, Pagination, Keyboard, Navigation]}
           className="mySwiper"
         >
-            <SwiperSlide>
+          <SwiperSlide>
           <div className="card">
             <img
-              src="/projects/horror_train.png"
+              src={portfolioImg}
               className="card-img-top"
               alt="..."
             />
             <div className="card-body">
-              <h5 className="card-title">The Horror Train</h5>
+              <h5 className="card-title">Portfolio</h5>
               <p className="card-text">
-              Game where players journey on a haunted train, tasked with finding eerie
-              items at various stations.
+                My Portfolio where you will find all professional information about me.
               </p>
             </div>
             <div className="inner-header">Tech-Stack</div>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
-                Unity Engine, Krita, Visual Studio
+                HTML/CSS, React JS, BootStrap
               </li>
             </ul>
             <div className="card-body-link">
-              <a href="https://indianindie.itch.io/train-game" className="card-link"  target="_blank">
+              <a href="#" className="card-link"  target="_blank">
                 Link
               </a>
-              <a href="#" className="card-link-1"  target="_blank">
+              <a href="https://github.com/SaeidAnwar/Portfolio/tree/master" className="card-link-1"  target="_blank">
                 GitHub
               </a>
             </div>
@@ -69,7 +74,7 @@ export default function () {
           <SwiperSlide>
           <div className="card">
             <img
-              src="/projects/youtube_filtered.png"
+              src={youtubeImg}
               className="card-img-top"
               alt="..."
             />
@@ -99,65 +104,7 @@ export default function () {
           <SwiperSlide>
           <div className="card">
             <img
-              src="/projects/portfolio.png"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h5 className="card-title">Portfolio</h5>
-              <p className="card-text">
-                My Portfolio where you will find all professional information about me.
-              </p>
-            </div>
-            <div className="inner-header">Tech-Stack</div>
-            <ul className="list-group list-group-flush">
-              <li className="list-group-item">
-                HTML/CSS, React JS, BootStrap
-              </li>
-            </ul>
-            <div className="card-body-link">
-              <a href="#" className="card-link"  target="_blank">
-                Link
-              </a>
-              <a href="https://github.com/SaeidAnwar/Portfolio/tree/master" className="card-link-1"  target="_blank">
-                GitHub
-              </a>
-            </div>
-          </div>
-          </SwiperSlide>
-          <SwiperSlide>
-          <div className="card">
-            <img
-              src="/projects/iguana_escape.png"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h5 className="card-title">Iguana's Escape</h5>
-              <p className="card-text">
-                Help the poor Iguana in escaping snakes and collecting food for it's survival in the wild.
-              </p>
-            </div>
-            <div className="inner-header">Tech-Stack</div>
-            <ul className="list-group list-group-flush">
-              <li className="list-group-item">
-                Unity Engine, Blender, Visual Studio
-              </li>
-            </ul>
-            <div className="card-body-link">
-              <a href="https://indianindie.itch.io/escape-for-survival" className="card-link"  target="_blank">
-                Link
-              </a>
-              <a href="#" className="card-link-1"  target="_blank">
-                GitHub
-              </a>
-            </div>
-          </div>
-          </SwiperSlide>
-          <SwiperSlide>
-          <div className="card">
-            <img
-              src="/projects/super_mario.png"
+              src={superImg}
               className="card-img-top"
               alt="..."
             />
@@ -178,6 +125,65 @@ export default function () {
                 Link
               </a>
               <a href="https://github.com/SaeidAnwar/Super-Mario-AI"  target="_blank" className="card-link-1">
+                GitHub
+              </a>
+            </div>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide>
+          <div className="card">
+            <img
+              src={trainImg}
+              className="card-img-top"
+              alt="..."
+            />
+            <div className="card-body">
+              <h5 className="card-title">The Horror Train</h5>
+              <p className="card-text">
+              Game where players journey on a haunted train, tasked with finding eerie
+              items at various stations.
+              </p>
+            </div>
+            <div className="inner-header">Tech-Stack</div>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item">
+                Unity Engine, Krita, Visual Studio
+              </li>
+            </ul>
+            <div className="card-body-link">
+              <a href="https://indianindie.itch.io/train-game" className="card-link"  target="_blank">
+                Link
+              </a>
+              <a href="#" className="card-link-1"  target="_blank">
+                GitHub
+              </a>
+            </div>
+          </div>
+          </SwiperSlide>
+          <SwiperSlide>
+          <div className="card">
+            <img
+              src={iguanaImg}
+              className="card-img-top"
+              alt="..."
+            />
+            <div className="card-body">
+              <h5 className="card-title">Iguana's Escape</h5>
+              <p className="card-text">
+                Help the poor Iguana in escaping snakes and collecting food for it's survival in the wild.
+              </p>
+            </div>
+            <div className="inner-header">Tech-Stack</div>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item">
+                Unity Engine, Blender, Visual Studio
+              </li>
+            </ul>
+            <div className="card-body-link">
+              <a href="https://indianindie.itch.io/escape-for-survival" className="card-link"  target="_blank">
+                Link
+              </a>
+              <a href="#" className="card-link-1"  target="_blank">
                 GitHub
               </a>
             </div>

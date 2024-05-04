@@ -15,6 +15,7 @@
     color: white;
     padding: 5px 10px 5px 10px;
     border-style: outset;
+
 }
 
 .Skills .content-container {
@@ -23,6 +24,7 @@
 }
 
 .Skills .card {
+    width: 360px;
     padding: 0;
     border: 2px solid black;
     border-radius: 0px;

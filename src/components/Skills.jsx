@@ -16,7 +16,7 @@ export default function () {
                     </div>
                     <div className="innercard">
                         <div className="img-container">
-                            <img src="html5.webp" alt="" />
+                            <img src="html.png" alt="" />
                             <p>HTMl</p>
                         </div>
                         <div className="img-container">
@@ -90,37 +90,34 @@ export default function () {
                     </div>
                     <div className="innercard">
                         <div className="img-container">
-                            <img src="html5.webp" alt="" />
-                            <p>HTMl</p>
+                            <img src="cc.png" alt="" />
+                            <p>C++</p>
                         </div>
                         <div className="img-container">
-                            <img src="css.png" alt="" />
-                            <p>CSS</p>
+                            <img src="python.png" alt="" />
+                            <p>Python</p>
                         </div>
-                        <div className="img-container">
-                            <img src="js.png" alt="" />
-                            <p>JavaScript</p>
-                        </div>
+                        
                     </div>
                 </li>
                 <li>
                     <div className="inner-header">
-                        Frameworks
+                        Tools
                     </div>
                     <div className="innercard">
                         <div className="img-container">
-                            <img src="React.webp" alt="" />
-                            <p>React</p>
+                            <img src="vs.png" alt="" />
+                            <p>VS-Code</p>
                         </div>
                         <div className="img-container">
-                            <img src="bootstrap.png" alt="" />
-                            <p>BootStrap</p>
+                            <img src="git.png" alt="" />
+                            <p>Git</p>
                         </div>
                     </div>
                 </li>
             </ul>
             <div className="footer">
-                Machine Learning
+                Programming
             </div>
         </div>
       </div>

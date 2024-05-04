@@ -14,7 +14,7 @@ export default function() {
                     <p className="detail">Currently pursuing my Btech in Computer Engineering from Delhi Technological University.</p>
                 </div>
                 <div className="right">
-                    <img src="/avatar.avif" alt="" />
+                    <img src="avatar.avif" alt="" />
                 </div>
             </div>
         </div>
