@@ -62,10 +62,10 @@ export default function () {
               </li>
             </ul>
             <div className="card-body-link">
-              <a href="#" className="card-link"  target="_blank">
+              <a href="https://saeidanwar.github.io/Portfolio/" className="card-link"  target="_blank">
                 Link
               </a>
-              <a href="https://github.com/SaeidAnwar/Portfolio/tree/master" className="card-link-1"  target="_blank">
+              <a href="https://github.com/SaeidAnwar/Portfolio/tree/main" className="card-link-1"  target="_blank">
                 GitHub
               </a>
             </div>
@@ -154,7 +154,7 @@ export default function () {
               <a href="https://indianindie.itch.io/train-game" className="card-link"  target="_blank">
                 Link
               </a>
-              <a href="#" className="card-link-1"  target="_blank">
+              <a href="https://indianindie.itch.io/train-game" className="card-link-1"  target="_blank">
                 GitHub
               </a>
             </div>
