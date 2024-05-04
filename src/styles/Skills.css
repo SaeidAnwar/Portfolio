@@ -1,0 +1,99 @@
+.Skills {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.Skills .heading {
+    font-size: 4rem;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-style: outset;
+}
+
+.Skills .content-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.Skills .card {
+    padding: 0;
+    border: 2px solid black;
+    border-radius: 0px;
+    box-shadow: 0px 0px 40px black, 0px 0px 10px black;
+    animation-name: floating1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin: 40px;
+}
+
+@keyframes floating1 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0px, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+.Skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Skills li {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.Skills .card .footer{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 10px;
+    background-color: black;
+    color: white
+}
+
+.Skills .innercard img {
+    height: 50px;
+    width: auto;
+    margin: 0;
+}
+
+.Skills .innercard {
+    display: flex;
+    flex-direction: row;
+}
+
+.Skills .img-container p {
+    margin: 0;
+}
+
+.Skills .img-container {
+    margin: 5px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    font-size: 1rem;
+}
+
+.Skills .inner-header {
+    margin: 5px;
+    color: black;
+    background-color: white ;
+    width: fit-content;
+    padding: 0px 5px 5px 5px;
+    border-style: outset;
+    border-color: black;
+}
+
+

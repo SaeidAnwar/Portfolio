@@ -1,0 +1,92 @@
+.Portfolio {
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 0px 20px 150px 20px;
+}
+
+.mainTextDiv {
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.mainTextDiv p {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3.5s steps(40, end), 
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {width: 0%}
+    to {width: 100%}
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+.subTextDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5%;
+}
+
+.subTextDiv .left{
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    top: 10%;
+}
+
+.left-hi span {
+    display: block;
+    border-color: blue;
+    border-style: solid;
+    color: red;
+}
+
+.left-hi {
+    font-size: 2rem;
+}
+
+.detail {
+    font-size: 1.5rem;
+}
+
+.subTextDiv .right {
+    filter: drop-shadow(0px 0px 5px white) drop-shadow(0px 0px 20px rgb(255, 255, 255))
+}
+
+.subTextDiv .right img {
+    width: 400px;
+    height: auto;
+    clip-path: circle();
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+

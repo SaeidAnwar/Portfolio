@@ -1,0 +1,49 @@
+.Contact {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.Contact .heading {
+    font-size: 4rem;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-style: outset;
+}
+.Contact .profile-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact .sub {
+    margin: 0px 30px 0px 30px;
+}
+.Contact .right {
+    filter: drop-shadow(0px 0px 5px black) drop-shadow(0px 0px 10px black);
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.Contact .right img {
+    width: 175px;
+    height: 175px;
+    clip-path: circle();
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(15px, 0px); }
+    100%   { transform: translate(0, -0px); }    
+}

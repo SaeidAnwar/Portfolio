@@ -1,0 +1,92 @@
+.Project {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Project .title{
+    font-size: 4rem;
+    font-weight: 600;
+    background-color: white;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    border-style: outset;
+}
+
+.Project .project-container{
+    display: block;
+    margin-bottom: 60px;
+}
+
+.Project .card {
+    width: 20rem;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.703);
+    padding: 10px
+}
+
+.Project .card-img-top {
+    width: 100%;
+    height: 275px;
+    object-fit: fill;
+}
+
+.Project .card-title {
+    font-size: 1.5rem;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+}
+
+.Project .card-text {
+    margin-top: 5px;
+    padding: 2px 10px 10px 10px;
+    border-bottom: 1px solid white;
+}
+
+.Project .inner-header {
+    font-size: 1.2rem;
+    margin: 5px;
+    padding: 5px 10px 5px 10px;
+    width: fit-content;
+    border: 1px outset white;
+}
+
+.Project ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.Project li {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0px 10px 10px 10px;
+    border-bottom: 1px solid white;
+}   
+
+.Project .card-link-1 {
+    margin-left: auto;
+}
+
+.Project .card-body-link {
+    display: flex;
+}
+
+.Project .swiper {
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+color: white;
+}
+  
+.Project .swiper-slide {
+background-position: center;
+background-size: cover;
+width: fit-content;
+height: fit-content;
+}
+
+.Project a {
+    color:  white;
+}
